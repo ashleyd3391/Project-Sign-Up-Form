@@ -40,6 +40,24 @@
 button{
     position: absolute;
     margin-top: 250px;
+    margin-left: -120px;
+    background-color: rgb(233, 107, 107);
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-weight:bolder
+}
+
+button:hover{
+    background-color: green;
+}
+
+.account{
+    position: absolute;
+    margin-top: 350px;
+    width: 400px;
+    margin-left: -200px;
 }
 
 .signup2{
