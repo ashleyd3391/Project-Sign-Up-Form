@@ -1,9 +1,68 @@
+.inputs{
+    display: flex;
+    height: 756px;
+    width: 700px;
+    position: absolute;
+    margin-left: 843px;
+    margin-top: 100px;
+    justify-content: center;
+    border-style: solid;
+    border-color: rgb(185, 183, 183);
+    border-width: 0.5mm;
+    flex-direction: column;
+
+}
+
+.intro1, .intro2{
+    color: rgb(211, 99, 99);
+    font-size: 1.3rem;
+    margin: 50px;
+    
+}
+
+.intro1{
+    margin-top: -400px;
+    margin-bottom: -40px;
+}
+
+.signup, .signup2{
+    position: absolute;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin-left: 60px;
+    padding: 30px;
+    font-size: 1.3rem;
+    color: rgb(61, 122, 82);
+ 
+}
+
+button{
+    position: absolute;
+    margin-top: 250px;
+}
+
+.signup2{
+    margin-left: 350px;
+}
+
+
 .div{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+
+.lotus{
+    height: 80px;
+    width: 100px;
+    margin-left: 430px;
+    position: absolute;
+    margin-top: -300px;
+    filter: invert();
+    
+}
 
 .logo{
     display: flex;
